@@ -12,5 +12,5 @@ int main() {
 
 	cout << "The author of code is: " << author << "\n\n";
 	cout << " He has a: " << health + speed << " Of Health and " << gun << " Gun shots";
-	return 0;
+	return 1;
 }
