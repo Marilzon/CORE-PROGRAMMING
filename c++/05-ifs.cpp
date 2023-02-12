@@ -14,7 +14,7 @@ int main()
 	if (name.empty())
 	{
 		cout << "name field empty, finishing program!";
-		return 0;
+		return 1;
 	}
 	else
 	{
@@ -29,8 +29,8 @@ int main()
 	else
 	{
 		cout << name << " sign-in age minimum rejected!, {12}";
-		return 0;
+		return 1;
 	}
 
-	return 1;
+	return 0;
 }

@@ -13,4 +13,6 @@ int main()
 	/* Multiply * -1 to invert polarity. */
 	cout << positiveValue * -1 << endl;
 	cout << negativeValue * -1 << endl;
+
+	return 0;
 }
