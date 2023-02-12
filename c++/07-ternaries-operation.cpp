@@ -3,12 +3,21 @@
 
 using namespace std;
 
+int getMax(int x, int y)
+{
+	return (x > y ? x : y);
+}
+
 int main()
 {
-	int value = 13;
-	char response;
+	int a, b;
+	cout << "input the value of x: " << endl;
+	cin >> a;
+	cout << "input the value of y: " << endl;
+	cin >> b;
 
-	cout << (value > 50 ? to_string(value) + "higher than 50" : to_string(value) + " smaller than 50") << endl;
+	int max = getMax(a, b);
 
+	cout << "max value is " << max;
 	return 0;
 }
