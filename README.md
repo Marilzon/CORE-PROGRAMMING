@@ -1,2 +1,5 @@
 # CORE-PROGRAMMING
-Core programming to C++ and other some things
+
+ - "Depois de anos criando projetos incríveis e codificando bastante, eu ainda não me sentia completamente efetivo. Sentia-me limitado a programar somente em uma linguagem (JavaScript) e a fazer uso excessivo de frameworks. Este repositório marca o primeiro passo em minha jornada para me tornar um grande programador, ultrapassando minhas habilidades atuais. Aqui, vou aprender o núcleo da programação e adquirir a capacidade de me adaptar a qualquer linguagem de programação, enriquecendo meu conhecimento com a base que é o C++."
+
+ - "After years of creating amazing projects and coding a lot, I still didn't feel completely effective. I felt limited to programming only in one language (JavaScript) and making excessive use of frameworks. This repository marks the first step on my journey to become a great programmer, surpassing my current skills. Here, I will learn the core of programming and acquire the ability to adapt to any root programming language, enriching my knowledge with the foundation that is C++."
