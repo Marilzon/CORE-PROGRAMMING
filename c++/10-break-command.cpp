@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-	for (int i = 1; i <= 10; i++)
+	for (int i = 1; i <= 50; i++)
 	{
-		if (i == 5)
+		if (i == 20)
 		{
 			cout << "break";
 			break;
