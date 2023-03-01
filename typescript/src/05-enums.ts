@@ -1,8 +1,16 @@
 enum Language {
-	Spanish = 'ES',
-	Portuguese = 'PT',
-	English = 'EN',
-	French = 'FR'
+	Spanish,
+	Portuguese,
+	English,
+	French
+}
+
+enum Step {
+	Back = 'S',
+	Run = 'W',
+	Left = 'A',
+	Right = 'D',
 }
 
 console.log(Language)
+console.log(Step)
