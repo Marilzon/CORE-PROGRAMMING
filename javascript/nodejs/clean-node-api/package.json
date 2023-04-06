@@ -11,5 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "git-commit-msg-linter": "^4.9.4"
+  },
+  "devDependencies": {
   }
 }
