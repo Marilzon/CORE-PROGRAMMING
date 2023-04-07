@@ -1,5 +1,8 @@
+import { IHttpResponse, IHttpRequest } from "./../protocols/http";
+
+import {} from "../protocols/http";
 export class SignUpController {
-  handle(httpRequest: any): any {
+  handle(httpRequest: IHttpRequest): IHttpResponse {
     const { name, email } = httpRequest.body;
 
     if (!name) {
@@ -15,5 +18,12 @@ export class SignUpController {
         body: new Error("Missing param: email"),
       };
     }
+
+    return {
+      statusCode: 200,
+      body: {
+        message: "SignUp successful",
+      },
+    };
   }
 }
