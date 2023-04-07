@@ -1,8 +1,5 @@
 import { Wallet } from "./models/Wallet";
 
-const adminWallet = new Wallet();
-
-adminWallet.agency = "1235-5";
-adminWallet.account = "29332-5";
+const adminWallet = new Wallet('1231-4', '12313-6');
 
 console.log(adminWallet);
