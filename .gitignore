@@ -174,3 +174,29 @@ coverage/
 .DS_Store
 Thumbs.db
 >>>>>>> nodejs
+
+# Ignore build artifacts
+/build/
+/vendor/
+composer.lock
+
+# Ignore environment-specific files
+.env
+.phpunit.result.cache
+php_errors.log
+error_log
+
+# Ignore logs and backups
+*.log
+*.tar.gz
+*.zip
+*.swp
+
+# Ignore user-specific files
+.idea/
+.vscode/
+.history/
+
+# Ignore configuration files that may contain sensitive information
+config.php
+database.php
