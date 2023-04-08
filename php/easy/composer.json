@@ -1,0 +1,15 @@
+{
+    "name": "stack/poo",
+    "autoload": {
+        "psr-4": {
+            "Stack\\Poo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marilzon",
+            "email": "maxmaril@hotmail.com"
+        }
+    ],
+    "require": {}
+}
