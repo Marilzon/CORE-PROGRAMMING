@@ -4,19 +4,19 @@ import Chance from "chance";
 
 const chance = new Chance();
 
-interface Contact {
+interface IContact {
   name: string;
   phone: string;
   email: string;
   birth: Date;
 }
 
-const contacts: Contact[] = [];
+const contacts: IContact[] = [];
 let rowsCSV = "";
 const numContacts = 100;
 
 for (let i = 0; i < numContacts; i++) {
-  const contact: Contact = {
+  const contact: IContact = {
     name: chance.name(),
     phone: chance.phone(),
     email: chance.email(),
