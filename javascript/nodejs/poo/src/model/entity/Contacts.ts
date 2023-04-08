@@ -4,14 +4,19 @@ export class Contact {
   private _email: string;
   private _birth: Date;
 
-  constructor(name: string, phone: string, email: string, birth: Date) {}
+  constructor(name: string, phone: string, email: string, birth: Date) {
+    this.name = name;
+    this.phone = phone;
+    this.email = email;
+    this.birth = birth;
+  }
 
   get name(): string {
     return this._name;
   }
 
   set name(name: string) {
-    if (!name && name.length > 0) {
+    if (name && name.length > 0) {
       this._name = name;
     } else {
       console.log("Invalid name!");
