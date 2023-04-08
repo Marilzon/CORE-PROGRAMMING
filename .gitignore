@@ -1,36 +1,18 @@
-.vscode
-/typescript/src/*.js
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Prerequisites
-*.d
+# TypeScript
+*.tsbuildinfo
 
-# Compiled Object files
-*.slo
-*.lo
+# C++
+build/
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
+<<<<<<< HEAD
 *.out
 *.app
 /.metadata/
@@ -164,3 +146,31 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+=======
+*.pdb
+*.ilk
+*.suo
+
+# Go
+bin/
+pkg/
+*.exe
+*.test
+*.prof
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# JavaScript
+dist/
+coverage/
+*.log
+*.lock
+
+# General
+.DS_Store
+Thumbs.db
+>>>>>>> nodejs
