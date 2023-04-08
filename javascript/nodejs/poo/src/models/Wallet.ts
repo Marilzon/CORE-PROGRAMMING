@@ -5,8 +5,8 @@ export class Wallet {
 
   constructor(agency: string, account: string) {
     this._amount = 0;
-    this._agency = this._validateAgency(agency) ? agency : "0000-0";
-    this._account = this._validateAccount(account) ? account : "00000-0";
+    this._agency = this._validateAgency(agency!) ? agency : "0000-0";
+    this._account = this._validateAccount(account!) ? account : "00000-0";
   }
 
   get agency() {
