@@ -1,15 +1,18 @@
 {
-    "name": "stack/poo",
-    "autoload": {
-        "psr-4": {
-            "Stack\\Poo\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Marilzon",
-            "email": "maxmaril@hotmail.com"
-        }
-    ],
-    "require": {}
+  "name": "stack/poo",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Stack\\Poo\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Marilzon",
+      "email": "maxmaril@hotmail.com"
+    }
+  ],
+  "require-dev": {
+    "symfony/var-dumper": "^6.2"
+  }
 }
