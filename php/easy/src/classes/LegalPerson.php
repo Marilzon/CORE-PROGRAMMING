@@ -1,17 +1,17 @@
 <?php
 
 declare(strict_types=1);
-
 namespace Stack\Poo;
 
 class LegalPerson
 {
-  private string $name;
+  const OBJECT_TYPE = 'Customer';
+  private static string $name;
   private string $email;
 
   public function __construct(string $name, string $email)
   {
-    $this->name = $name;
+    self::$name = $name;
     $this->email = $email;
   }
 
@@ -28,4 +28,11 @@ class LegalPerson
   {
     return $this->email;
   }
+
+  public static function getInfo(): string
+  {
+    return self::$name . " - " . self::OBJECT_TYPE;
+  }
 }
+
+?>
