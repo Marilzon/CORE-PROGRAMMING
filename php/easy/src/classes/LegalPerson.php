@@ -5,19 +5,20 @@ namespace Stack\Poo;
 
 class LegalPerson
 {
-  const OBJECT_TYPE = 'Customer';
   private static string $name;
   private string $email;
+  private string $gender;
 
-  public function __construct(string $name, string $email)
+  public function __construct(string $name, string $email, string $gender)
   {
     self::$name = $name;
     $this->email = $email;
+    $this->gender = $gender;
   }
 
   public function getName(): string
   {
-    return $this->name;
+    return self::$name;
   }
 
   public function setName(string $name): void
@@ -27,11 +28,6 @@ class LegalPerson
   public function getEmail(): string
   {
     return $this->email;
-  }
-
-  public static function getInfo(): string
-  {
-    return self::$name . " - " . self::OBJECT_TYPE;
   }
 }
 
