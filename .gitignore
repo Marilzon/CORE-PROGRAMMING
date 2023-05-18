@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# Lisp
+*.fas
+*.lib
+
+# C++
+*.o
+*.out
+
+# Python
+*.pyc
+__pycache__/
+
+# Go
+*.exe
+*.test
+*.prof
