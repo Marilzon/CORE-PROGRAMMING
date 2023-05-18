@@ -164,3 +164,26 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore compiled files
+*.fasl
+*.fas
+*.lib
+*.x86f
+
+# Ignore output files
+*.out
+
+# Ignore Emacs backup files
+*~
+
+# Ignore SLIME files
+*.swank
+*.sbcl
+
+# Ignore ASDF build files
+build/
+
+# Ignore Quicklisp downloads
+quicklisp/
+ql-cache/
