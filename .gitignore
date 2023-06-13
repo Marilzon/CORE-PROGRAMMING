@@ -1,9 +1,8 @@
+.vscode
+.metadata
+
 # Node.js
 node_modules/
-
-# Lisp
-*.fas
-*.lib
 
 # C++
 *.o
@@ -17,3 +16,6 @@ __pycache__/
 *.exe
 *.test
 *.prof
+
+# TypeScript
+*.tsbuildinfo
