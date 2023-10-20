@@ -1,21 +1,150 @@
-.vscode
-.metadata
+# General
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+npm-debug.log*
+yarn-error.log*
+*.log
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
 
 # Node.js
 node_modules/
+npm-debug.log*
+yarn-error.log*
 
 # C++
-*.o
 *.out
 
 # Python
-*.pyc
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyc
 
 # Go
-*.exe
-*.test
-*.prof
+/bin/
+/pkg/
+/vendor/
 
 # TypeScript
-*.tsbuildinfo
+node_modules/
+dist/
+*.js
+
+# Flutter
+/.idea/
+.vscode/
+/.pub-cache/
+/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependency/
+.flutter-plugins-lock
+.pubsolver/
+pubspec.lock
+
+# C#
+obj/
+bin/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+*/Backup*/
+*.bak
+*.vspscc
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.scc
+*.suo
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled binary files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+
+# User-specific files
+.DS_Store
+desktop.ini
+Icon?
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+*.db
+*.sdb
+*.spotlight
+*.trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows image file caches
+ehthumbs_vista.db
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
