@@ -49,6 +49,26 @@ dist/
 .pubsolver/
 pubspec.lock
 
+# C 
+
+# Compiled files
+*.o
+*.out
+*.exe
+/build/
+/bin/
+/Debug/
+/Release/
+/obj/
+.vscode/
+.idea/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.sln.docstates
+/.deps/
+
 # C#
 obj/
 bin/
