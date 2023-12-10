@@ -24,8 +24,23 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-__pycache__/
-*.pyc
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# General
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+npm-debug.log*
+yarn-error.log*
+*.log
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
 
 # Go
 /bin/
