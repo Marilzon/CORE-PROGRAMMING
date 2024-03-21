@@ -1,9 +1,11 @@
-# binary search function
-# left is first index of array
-# right is last index of array 
-# k is target value
-
 def binary_search(arr, k) -> int:
+    """
+    binary search algorithm function
+    
+    :param arr: input integer array
+    :param k: searched value to binary algorithm
+    :return: integer value searched or return -1
+    """
     left = 0
     right = len(arr) - 1
 
@@ -15,9 +17,12 @@ def binary_search(arr, k) -> int:
         else:
             right = center
 
+    # Check if element is found at left index after loop
     if arr[left] == k:
         return left
-    return -1
+    # Not found, return -1 (ensure this line is indented)
+    else:
+        return -1
 
 
 arr_target = [-4, 3, 6, 10, 12, 16, 17, 25, 29, 33, 35, 39, 41]
