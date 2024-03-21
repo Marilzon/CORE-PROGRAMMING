@@ -1,202 +1,24 @@
-# General
-.DS_Store
-.idea/
-.vscode/
-node_modules/
-npm-debug.log*
-yarn-error.log*
-*.log
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-error.log*
-
-# C++
-*.out
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Jupyter Notebooks
-.ipynb_checkpoints/
-*.ipynb
-
-# General
-.DS_Store
-.idea/
-.vscode/
-node_modules/
-npm-debug.log*
-yarn-error.log*
-*.log
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
-
-# Go
-/bin/
-/pkg/
-/vendor/
-
-# TypeScript
-node_modules/
-dist/
-*.js
-
-# Flutter
-/.idea/
-.vscode/
-/.pub-cache/
-/build/
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependency/
-.flutter-plugins-lock
-.pubsolver/
-pubspec.lock
-
-# C 
-
-# Compiled files
-*.o
-*.out
-*.exe
-/build/
-/bin/
-/Debug/
-/Release/
-/obj/
-.vscode/
-.idea/
-*.suo
-*.user
-*.sdf
-*.opensdf
-*.sln.docstates
-/.deps/
-
-# C#
-obj/
-bin/
-.vscode/
-*.suo
-*.user
-*.sln.docstates
-*/Backup*/
-*.bak
-*.vspscc
-*_i.c
-*_p.c
-*.ilk
-*.meta
-*.obj
-*.pch
-*.pdb
-*.pgc
-*.pgd
-*.rsp
-*.scc
-*.suo
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.user
-*.userosscache
-*.sln.docstates
-
-# Compiled binary files
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Package files
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Logs and databases
-*.log
-*.sql
-*.sqlite
-
-# OS generated files
-.DS_Store
-ehthumbs.db
-Icon?
-Thumbs.db
-
-# Visual Studio Code
-.vscode/
-
-# IntelliJ / Android Studio
-.idea/
-
-# User-specific files
-.DS_Store
-desktop.ini
-Icon?
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-*.db
-*.sdb
-*.spotlight
-*.trashes
-ehthumbs.db
-Thumbs.db
-
-# Windows image file caches
-ehthumbs_vista.db
-Thumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Ignore Docker related files
-docker-compose.yml
-Dockerfile
+# Docker-related
 .dockerignore
+Dockerfile
+docker-compose.yml
 
-# Ignore PySpark related files
-*.log
+# Python-related
 *.pyc
-__pycache__/
-*.swp
+__pycache__
+venv/
+env/
+*.env
+*.egg-info/
 
-# Ignore environment-specific files
-.env
+# PySpark-related
+*.log
+*.tmp
+*.out
+*.metastore/
+*.pyc
+__pycache__
 
-# Ignore system files
-.DS_Store
+# Jupyter Notebook-related
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
