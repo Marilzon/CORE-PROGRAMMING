@@ -183,3 +183,20 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
+
+# Ignore Docker related files
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Ignore PySpark related files
+*.log
+*.pyc
+__pycache__/
+*.swp
+
+# Ignore environment-specific files
+.env
+
+# Ignore system files
+.DS_Store
